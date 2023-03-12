@@ -1,0 +1,36 @@
+#header{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+#header ul{
+        list-style: none;
+        display: flex;
+        align-items: center;
+}
+#header ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #1c1c1c;
+}
+#header ul li a{
+    color:#1c1c1c;
+    font-size: 15px;
+}
+#header button{
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 45px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 2px;
+    border: #eee;
+}
+#header button a{
+    text-decoration: none;
+    color:#1c1c1c;
+    font: bold;
+}

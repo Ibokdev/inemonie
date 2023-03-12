@@ -1,0 +1,117 @@
+#hero{
+    height: 100vh;
+    width: 100%;
+    /* padding: 20px; */
+}
+#heroArticle button{
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 45px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 2px;
+    border: #eee;
+    background-color:#6912AA;
+}
+#heroArticle button a{
+    color: #fff;
+}
+#heroBottom{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+#heroLink {
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.grid{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 60px;
+}
+.col50{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+#heroHeader{
+    font-size: 50px;
+    line-height: 65px;
+}
+#heroHeader span{
+    color: #6912AA;
+}
+#heroP{
+    font-size: 15px;
+}
+.pager1grid{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.col34{
+    width: 34%;
+    height: 100%;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+}
+.col30{
+    width: 30%;
+    height: 100%;
+}
+.col35{
+    width: 35%;
+    height: 100%;
+    padding: 10px;
+}
+.col34 button{
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 45px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 2px;
+    border: #eee;
+    background-color:black;
+}
+.col34 button a{
+    color: white;
+    font-size: small;
+}
+.col34 h5{
+    font-size: medium;
+}
+.col34 p{
+    font-size: 15px;
+    line-height: 35px;
+}
+.col35 h5{
+    font-size: medium;
+}
+#moneyTransfer{
+    margin-top: 50px;
+}
+.trust{
+    height: 200px;
+    width: 100vw;
+    text-align: center;
+}
+.trust p span{
+    font-weight: bold;
+}
