@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./home.module.css";
-import sidebarimage from "../../assets/images/sidebarimg.svg";
+import sidebarimage from "../../assets/images/hero.svg";
 
 function Herosection() {
   return (

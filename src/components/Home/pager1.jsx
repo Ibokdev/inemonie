@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./home.module.css";
-import casual from "../../assets/images/casual.svg";
+import casual from "../../assets/images/casualimage.svg";
 
 function Pager1() {
   return (
