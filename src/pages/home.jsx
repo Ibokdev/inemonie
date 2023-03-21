@@ -5,6 +5,8 @@ import Wetrust from "../components/Home/wetrust";
 import Gst from "../components/Home/gst"
 import Gstmiddle from "../components/Home/gstmiddle"
 import Gstfooter from "../components/Home/gstfooter";
+import Footer from "../components/Home/footer"
+import Footer2 from "../components/Home/footer2"
 
 function Home () {
 
@@ -19,6 +21,8 @@ return (
         <Gst/>
         <Gstmiddle/>
         <Gstfooter/>
+        <Footer/>
+        <Footer2/>
     </div>
 )
 }
